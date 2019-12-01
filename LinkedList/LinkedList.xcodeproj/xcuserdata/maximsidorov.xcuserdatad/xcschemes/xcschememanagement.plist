@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestForTests.xcscheme_^#shared#^_</key>
+		<key>LinkedList.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>34417C55238EE46A0047CD2B</key>
+		<key>34417C82238EED690047CD2B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>34417C72238EE4CD0047CD2B</key>
+		<key>347EC49423624FA9008AEC92</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TestForTests
+//  LinkedList
 //
-//  Created by Maxim Sidorov on 27.11.2019.
+//  Created by Maxim Sidorov on 25.10.2019.
 //  Copyright © 2019 Maxim Sidorov. All rights reserved.
 //
 

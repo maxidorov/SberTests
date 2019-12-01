@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34417C55238EE46A0047CD2B"
-               BuildableName = "TestForTests.app"
-               BlueprintName = "TestForTests"
-               ReferencedContainer = "container:TestForTests.xcodeproj">
+               BlueprintIdentifier = "347EC49423624FA9008AEC92"
+               BuildableName = "LinkedList.app"
+               BlueprintName = "LinkedList"
+               ReferencedContainer = "container:LinkedList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34417C72238EE4CD0047CD2B"
-               BuildableName = "TestForTestsTests.xctest"
-               BlueprintName = "TestForTestsTests"
-               ReferencedContainer = "container:TestForTests.xcodeproj">
+               BlueprintIdentifier = "34417C82238EED690047CD2B"
+               BuildableName = "LinkedListTests.xctest"
+               BlueprintName = "LinkedListTests"
+               ReferencedContainer = "container:LinkedList.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34417C55238EE46A0047CD2B"
-            BuildableName = "TestForTests.app"
-            BlueprintName = "TestForTests"
-            ReferencedContainer = "container:TestForTests.xcodeproj">
+            BlueprintIdentifier = "347EC49423624FA9008AEC92"
+            BuildableName = "LinkedList.app"
+            BlueprintName = "LinkedList"
+            ReferencedContainer = "container:LinkedList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,10 +72,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34417C55238EE46A0047CD2B"
-            BuildableName = "TestForTests.app"
-            BlueprintName = "TestForTests"
-            ReferencedContainer = "container:TestForTests.xcodeproj">
+            BlueprintIdentifier = "347EC49423624FA9008AEC92"
+            BuildableName = "LinkedList.app"
+            BlueprintName = "LinkedList"
+            ReferencedContainer = "container:LinkedList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
