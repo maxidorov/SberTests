@@ -10,32 +10,61 @@ import XCTest
 @testable import LinkedList
 
 class LinkedListTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testListAddFirst() {
+    
+    func testListMethodAddFirstWorksProperly() {
         
         //Arrange
         var list = List<Int>()
         
         //Act
         list.addFirst(element: 1)
+        list.addFirst(element: 2)
+        
+        //Assert
+        XCTAssertEqual(2, list.getElem(at: 0))
+    }
+    
+    func testListMethodAddLastWorksProperly() {
+        
+        //Arrange
+        var list = List<Int>()
+        
+        //Act
+        list.addLast(element: 1)
+        list.addLast(element: 2)
         
         //Assert
         XCTAssertEqual(1, list.getElem(at: 0))
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testListMethodRemoveFirstWorksProperly() {
+        
+        //Arrange
+        var list = List<Int>()
+        
+        //Act
+        list.addFirst(element: 1)
+        list.addFirst(element: 2)
+        list.addFirst(element: 3)
+        list.removeFirst()
+        
+        //Assert
+        XCTAssertEqual(2, list.getElem(at: 0))
     }
-
+    
+    func testListMethodRemoveLastWorksProperly() {
+        
+        //Arrange
+        var list = List<Int>()
+        
+        //Act
+        list.addFirst(element: 1)
+        list.addFirst(element: 2)
+        list.addFirst(element: 3)
+        list.removeLast()
+        
+        //Assert
+        XCTAssertEqual(3, list.getElem(at: 0))
+    }
+    
 }

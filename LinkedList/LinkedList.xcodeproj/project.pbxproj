@@ -15,6 +15,10 @@
 		347EC4A223624FAA008AEC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347EC4A123624FAA008AEC92 /* Assets.xcassets */; };
 		347EC4A523624FAA008AEC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347EC4A323624FAA008AEC92 /* LaunchScreen.storyboard */; };
 		347EC4AD23624FC0008AEC92 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EC4AC23624FC0008AEC92 /* LinkedList.swift */; };
+		34A6D3AC2398348F000F1697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EC49823624FA9008AEC92 /* AppDelegate.swift */; };
+		34A6D3AD23983491000F1697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EC49A23624FA9008AEC92 /* SceneDelegate.swift */; };
+		34A6D3AE23983493000F1697 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EC4AC23624FC0008AEC92 /* LinkedList.swift */; };
+		34A6D3AF23983495000F1697 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34595E1D2369C09600E71051 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,7 +156,6 @@
 				TargetAttributes = {
 					34417C82238EED690047CD2B = {
 						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 347EC49423624FA9008AEC92;
 					};
 					347EC49423624FA9008AEC92 = {
 						CreatedOnToolsVersion = 11.1;
@@ -204,7 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A6D3AC2398348F000F1697 /* AppDelegate.swift in Sources */,
+				34A6D3AF23983495000F1697 /* MainVC.swift in Sources */,
 				34417C86238EED690047CD2B /* LinkedListTests.swift in Sources */,
+				34A6D3AE23983493000F1697 /* LinkedList.swift in Sources */,
+				34A6D3AD23983491000F1697 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +259,6 @@
 		34417C8A238EED690047CD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZB2A7WP7E;
 				INFOPLIST_FILE = LinkedListTests/Info.plist;
@@ -265,14 +271,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedList.app/LinkedList";
 			};
 			name = Debug;
 		};
 		34417C8B238EED690047CD2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZB2A7WP7E;
 				INFOPLIST_FILE = LinkedListTests/Info.plist;
@@ -285,7 +289,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedList.app/LinkedList";
 			};
 			name = Release;
 		};
